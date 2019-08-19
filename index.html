@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table>
+        <tr> 
+            <td>
+                <input type="text" id="result">
+                <br>
+                <div class="number">
+                <input type="button" id="top" value="C" onclick="clean()">
+                <input type="button" id="top" value="CE" onclick="backspace()">
+                <input type="button" id="top" value="0"onclick="getNumbers(0)">
+                <input type="button" id="multi" value="*" onclick="getNumbers('*')">
+                <br> 
+                <input type="button" value="1" onclick="getNumbers(1)">
+                <input type="button" value="2" onclick="getNumbers(2)">
+                <input type="button" value="3" onclick="getNumbers(3)">
+                <input type="button" id="plus" value="+" onclick="getNumbers('+')">
+                <br>
+                <input type="button" value="4" onclick="getNumbers(4)">
+                <input type="button" value="5" onclick="getNumbers(5)">
+                <input type="button" value="6" onclick="getNumbers(6)">
+                <input type="button" id="minus" value="-" onclick="getNumbers('-')">
+                <br>
+                <input type="button" value="7" onclick="getNumbers(7)">
+                <input type="button" value="8" onclick="getNumbers(8)">
+                <input type="button" value="9" onclick="getNumbers(9)">
+                <input type="button" id="devide" value="/" onclick="getNumbers('/')">
+                <br>
+                <input type="button" value="=" id="equal" onclick="calculate()">
+                
+                <input type="button" id="dot" value="." onclick="getNumbers('.')">
+                <input type="button" id="muldelous" value="%" onclick="getNumbers('%')">
+            </div>
+            </td>
+        </tr>
+    </table>
+    <script src="casio.js"></script>
+</body>
+
+</html>

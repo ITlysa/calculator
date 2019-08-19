@@ -1,0 +1,66 @@
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    margin-top: 60px;
+}
+input[type="button"]{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 19px;
+    background: rgb(240, 235, 241);
+    outline: none;
+    color:rgb(19, 17, 17);
+    border: greenyellow;
+}
+input[type="text"]{
+    height: 70px;
+    background: rgb(241, 238, 243);
+    width: 95.5%;
+    margin-left: 5px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+table{
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(241, 238, 243);
+    box-sizing: border-box;
+}
+#equal{
+    width: 128px;
+}
+.number{
+    margin-top: 13px;
+}
+#multi{
+    background: blueviolet;
+    font-size: 30px;
+}
+#plus{
+    background: rgb(18, 201, 140);
+    font-size: 28px;
+}
+#devide{
+    background: rgb(211, 194, 42);
+    font-size: 27px;
+}
+#muldelous{
+    background: rgb(116, 231, 235);
+}
+#minus{
+    background: rgb(233, 115, 213);
+    font-size: 29px;
+}
+#top{
+    background: rgb(212, 205, 205);
+}
+#dot{
+    font-size: 29px;
+}
